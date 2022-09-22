@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+header{
+    background-image:linear-gradient(rgba(255, 255, 255, 0.685), rgba(0, 0, 0, 0.233)) ,url(qqq.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: -20px;
+    margin-right: 25%;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 30px;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+ul li a:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 246, 246);
+}
+
+.logo img{
+    float: left;
+    width: 170px;
+    height: auto;
+    margin-top: -10%;
+    margin-left: -90%;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: black;
+    font-size: 70px;
+}
+
+.about{
+    width: 100%;
+    padding: 78px 0px;
+    background:linear-gradient(rgba(197, 194, 194, 0.685), rgba(151, 151, 151, 0.514)) ,#ffffff;
+}
+
+.about .image{
+    height: auto;
+    width: 450px;
+}
+
+.about-text{
+    width: 550px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h1{
+    color: black;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h3{
+    color: black;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+span{
+    color: #f9004d;
+}
+
+.about-text p{
+    color: black;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+button{
+    background: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    font-size: 20px;
+}
